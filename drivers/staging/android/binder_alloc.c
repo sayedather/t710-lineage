@@ -29,6 +29,7 @@
 #include <linux/sched.h>
 #include "binder_alloc.h"
 #include "binder_trace.h"
+#include <linux/err.h>
 
 static DEFINE_MUTEX(binder_alloc_mmap_lock);
 
